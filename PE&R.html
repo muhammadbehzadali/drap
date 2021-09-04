@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Poppins", sans-serif
+        }
+        
+        body {
+            background: url("./img/26.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 0px 0px;
+            position: relative;
+            font-size: 16px;
+        }
+        
+        .w3-half img {
+            margin-bottom: -6px;
+            margin-top: 16px;
+            opacity: 0.8;
+            cursor: pointer
+        }
+        
+        .w3-half img:hover {
+            opacity: 1
+        }
+        
+        @media only screen and (max-width: 600px) {
+            #li {
+                display: block;
+            }
+        }
+        
+        .dropdown-menu {
+            background-color: grey;
+        }
+        
+        .dropdown-item:hover {
+            border: 3px solid black;
+        }
+    </style>
+    <title>PE&R</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-primary">
+        <div class="container-fluid ">
+            <span class="navbar-text">
+        Ministry of Health Services Regulations & Coordination Islamabad
+      </span>
+            <span>
+       <a href="#" target="_blank"> <i class="fab fa-facebook fa-2x" style="color: white;  cursor: pointer ; margin-right: 15px;  "></i></a>
+       <a href="#" target="_blank"> <i class="fab fa-twitter float-end fa-2x" style="color: white;cursor:pointer;"></i></a>
+    </span>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark fw-bolder justify-content-center flex justify-center" style="background-color:black; border-left: 1px solid #000;;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav nav nav-tabs justify-content-center me-auto mb-2 mb-lg-0 flex justify-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="homee.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./ceo.html">CEO MESSAGE</a></li>
+                            <li><a class="dropdown-item" href="./vission.html">Vision/Mission</a></li>
+                            <li><a class="dropdown-item" href="./policy.html">Policy Board</a></li>
+                            <li><a class="dropdown-item" href="./authority.html">Authority Members</a></li>
+                            <li><a class="dropdown-item" href="./registration.html">Registration Board</a></li>
+                            <li><a class="dropdown-item" href="./liscense.html">Liscensing Board</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Divisions
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./ceo.html">CEO MESSAGE</a></li>
+                            <li><a class="dropdown-item" href="#">Vision/Mission</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.dra.gov.pk/Home/covid/">Covid-19</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./downloads.html">Downloads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="career.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Webmail</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-light bg-grey">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="" width="400" height="100" class="d-inline-block align-text-top">
+            </a>
+
+            <form class="d-flex">
+                <input class="form-control me-2 focus:outline-none focus:ring focus:border-blue-300" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <!-- section code -->
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-light-grey w3-collapse w3-top w3-large w3-padding" style="align-self: inline;z-index:3; margin-top:290px; margin-bottom:900px;height:450px;width:200px;font-weight:bold; float: left;" id="mySidebar"><br>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="border-radius: 90rem; width:900%;font-size:22px;">Close Menu</a>
+        <div class="w3-container">
+            <i class="fas fa-medkit float-inline fa-2x" style="color: green;cursor:pointer; margin-bottom: 40px; align-self: start;"></i>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+            <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">What It Does!</a>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+            <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Authority Heads</a>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+            <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Referential Documents</a>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">PE&R Documents</a>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+        </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+        <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+        <span>Company Name</span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+        <!-- Header -->
+        <div class="w3-container" style="margin-top:80px" id="showcase">
+            <h1 class="w3-jumbo"><b>Pharmaceutical Evaluation</b></h1>
+            <h1 class="w3-xxxlarge w3-text-green"><b>and Registration Division</b></h1>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+        </div>
+
+        <!-- Photo grid (modal) -->
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <img src="./img/21.gif" style="border-radius: 90rem; margin-left:280px;width:700px; height: 400px; " onclick="onClick(this)" alt="Concrete meets bricks">
+            </div>
+        </div>
+
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+            <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption"></p>
+            </div>
+        </div>
+
+        <!-- Services -->
+        <div class="w3-container" id="services" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-black"><b>What It Does!</b></h1>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+            <p>
+                Pharmaceutical Evaluations and Registration Division is responsible for the evaluation, assessment and registration of pharmaceuticals drugs for human beings, animals and to perform other functions connected therewith and assigned by the Board.
+            </p>
+        </div>
+
+        <!-- Designers -->
+        <div class="w3-container" id="designers" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-black"><b>Authority Heads</b></h1>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+            <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+
+        <!-- The Team -->
+        <div class="w3-row-padding w3-grayscale">
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-light-grey">
+                    <img src="./img/p1.png" alt="John" style="width:100%;">
+                    <div class="w3-container">
+                        <h3>Dr. Faisal Sultan</h3>
+                        <p class="w3-opacity">Special Assistant to Prime Minister on Health, Ministry of NHSR&C
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-light-grey">
+                    <img src="./img/p2.jpg" alt="Jane" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Mr. Aamir Ashraf Khawaja</h3>
+                        <p class="w3-opacity">Secretary, Ministry of NHSR&C
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col m4 w3-margin-bottom">
+                <div class="w3-light-grey">
+                    <img src="./img/p3.jfif" alt="Mike" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Mr. Asim Rauf</h3>
+                        <p class="w3-opacity">Chief Executive Officer, DRAP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Packages / Pricing Tables -->
+        <div class="w3-container" id="packages" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-black"><b>Referential Documents</b></h1>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-light-grey w3-center">
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Common Techincal Document</li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <p>Common Technical Document (CTD) for Registration of Human Drugs (FORM 5-F)</p>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Download</button>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <p>Frequently asked questions about Form 5F (Common Technical Document)</p>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Download</button>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <p>Establishment of Facilitation Desk for Submission of Application on Form 5-F</p>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Download</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-half">
+                <ul class="w3-ul w3-light-grey w3-center">
+                    <li class="w3-green w3-xlarge w3-padding-32">Guidance For Applicants</li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <p>Grant of Drug Registeration (Pharmaceutical Drug for Human Use)</p>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Process Flow</button>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Procedures</button>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <p>Grant of Drug Registration (Pharmaceutical drug for Veterinary use)</p>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Process Flow</button>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Procedures</button>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <p>Renewal of Registration Process</p>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Process Flow</button>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Procedures</button>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <p>Grant of Drug Registration for Export Purposes</p>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Process Flow</button>
+                        <button class="w3-button w3-black w3-padding-large w3-hover-green">Procedures</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="w3-container" id="contact" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-black"><b>PE&R Documents</b></h1>
+            <hr style="width:50px;border:5px solid white" class="w3-round">
+            <p>Navigate the PE&R Documents</p>
+            <form action="/action_page.php" target="_blank">
+                <div class="w3-section">
+                    <input class="w3-input w3-border" placeholder="Serach/Filter/Sort By Keywards" type="text" name="Name" required>
+                </div>
+                <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Search</button>
+
+
+                <div class="container table-responsive" style=" background-color: green;">
+                    <table class="table table-bordered table-striped table-hover table-sm" style="color: black">
+                        <thead class="fs-4">
+                            <tr>
+
+                                <th>Type</th>
+                                <th>Subject</th>
+                                <th>Division</th>
+                                <th>Attachment</th>
+                            </tr>
+                        </thead>
+                        <tbody id="myTable">
+
+
+
+                            <tr>
+
+                                <td>Application Form</td>
+                                <td>Application Form for Registration of a Drug for Local Manufacture </td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Application Form</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Application Form</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Application Form</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Rules</td>
+                                <td>Amendments in Rule 27 of Drugs Licensing Rregistration &amp; Advertising Rules 1976</td>
+                                <td>Registration</td>
+                                <td><a href="./pdf/Download?ImageName=Rule27ofLRARules1976RenewalGazette05_10_2017.pdf">Download</a></td>
+
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+            </form>
+
+            </div>
+
+            <!-- End page content -->
+        </div>
+
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+        </script>
+
+</body>
+
+</html>
+
+
+<!-- section code end -->
+
+<div class="container mt-0  d-sm-block" style="background-color: #e2ebeb; color:black; ">
+    <footer class="py-5 ">
+        <div class="row justify-content-center font-bold " id="li">
+            <div class="col-2 col-sm-2 ">
+                <h1 class="mb-2 fs-3 ">DRAP</h1>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2 "><a href=" ">About DRAP </a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/VisionMission ">Vision </a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/VisionMission ">Mission</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/Leadership ">Leadership</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/PolicyBoard ">Policy Board</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/SeniorManagement ">Authority Members</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/Contactus ">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2 col-sm-2">
+                <h1 class="mb-2 fs-3 ">Divisions</h1>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2 "><a href="/Home/Registration ">PE&amp;R</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/Licensing ">Drug Licensing </a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/QualityAssurance ">Quality Assurance</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/MDMC ">Medical Devices</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/Biological ">Biological Drugs</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/ControlledDrugs ">Controlled Drugs</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/HOTC ">Health &amp; OTC</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2  col-sm-2">
+                <h1 class="mb-2 fs-3 ">Support</h1>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2 "><a href="/Home/Media ">News &amp; Events</a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/Tenders ">Tender Notices </a></li>
+                    <li class="nav-item mb-2 "><a href="/Home/DownloadsAllDocs ">Updates</a></li>
+                    <li class="nav-item "><a href="/Home/MIS ">MIS</a></li>
+                    <li class="nav-item "><a href="http://webmail.dra.gov.pk ">Webmail </a></li>
+                    <li class="nav-item "><a href="/Home/Contactus ">Contact US</a></li>
+                </ul>
+            </div>
+            <div class="col-2 col-sm-2 ">
+                <h1 class="mb-2 fs-3">QUICK LINKS</h1>
+                <ul class="nav flex-column ">
+                    <li class="nav-item "><a href="http://www.nhsrc.gov.pk/ ">Ministry of NHSR&amp;C</a></li>
+                    <li class="nav-item "><a href="http://www.ncoc.gov.pk/ ">National Command Operation Center</a></li>
+                    <li class="nav-item "><a href="http://www.pmdc.org.pk/ ">Pakistan Medical &amp; Dental Council</a></li>
+                    <li class="nav-item "><a href="http://www.pharmacycouncil.org.pk/ ">Pharmacy Council of Pakistan</a></li>
+                    <li class="nav-item "><a href="http://www.commerce.gov.pk/ ">Ministry of Commerce</a></li>
+                    <li class="nav-item "><a href="http://www.who.int/ ">World Health Organization</a></li>
+                    <li class="nav-item "><a href="http://www.fbr.gov.pk ">Federal Board of Revenue</a></li>
+                    <li class="nav-item "><a href="http://www.nih.org.pk/ ">National Institute of Health</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+            <h5>Find Us On</h5>
+            <div class="w3-xlarge w3-padding-16">
+
+                <i class="fas fa-facebook-official w3-hover-opacity" style="color: green;"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+        </footer>
+    </footer>
+</div>
+
+<div class="container mt-2">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="text-muted justify-content-center">© 2021 - Drug Regulatory Authority of Pakistan</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-muted" href="#"><i class="fab fa-facebook fa-2x" style="color: black;  cursor: pointer ; margin-right: 15px;  "></i></a>
+            </li>
+            <li class="ms-3">
+                <a class="text-muted" href="#"><i class="fab fa-twitter fa-2x" style="color:black;  cursor: pointer ; margin-right: 15px;  "></i></a>
+            </li>
+
+        </ul>
+    </footer>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj " crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
